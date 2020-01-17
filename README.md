@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML is the HTML code that provides MEANING to the content of your document. It makes it easy to see which content is a section, what the title of the page is (h1), what's a paragraph or link or image. Presentational HTML (like divs), on the other hand, do not provide any meaning and are simply used to group content together for styling purposes. Semantic HTML helps make your code easily understandable by other developers you might be working with, helps with accessibility and contributes to SEO. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Block elements will create a line break after them whereas inline items do not (they appear in line with the content around them). 
+
+    Block elements take a width property whereas inline elements do not. 
 
 3. What are the 4 areas of the box model?
 
+    Content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valuable because it allows a team of developers to work on the same code base without getting in each other's way. Because it logs your history of commits, it's also useful in debugging (given that you commit frequently, you can go back to the exact moment your code last worked well making it easier to diagnose what went wrong). Distributed version control is also useful in case something happens to the central server or your local computer. You won't lose everything you worked on. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
