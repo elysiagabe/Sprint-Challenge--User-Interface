@@ -244,3 +244,14 @@ footer nav a {
 }
 
 /****** CONTACT STYLES ******/
+
+.contact-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-form,
+.contact-info {
+    width: 48%;
+    border: 1px pink solid;
+}
