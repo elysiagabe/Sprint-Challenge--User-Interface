@@ -69,6 +69,22 @@ p {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px 40px 40px 0;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header img {
+    margin-bottom: 25px;
+}
+
+header nav img {
+    margin-bottom: 0;
 }
 
 .container {
